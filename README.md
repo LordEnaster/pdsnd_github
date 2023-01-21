@@ -9,7 +9,8 @@ Bikeshare Data Analysis in Python
 This project takes data from three cities participating in a US based bikeshare program, and performs data anaysis on a per city basis.
 
 ### Files used
-bikeshare_2.py
+bikeshare.py
+bikeshare_2.py and testFile.py have been deprecated, and are kept for transparency reasons
 
 ### Credits
 Udacity Python for Data Science nano-degree
