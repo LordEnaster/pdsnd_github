@@ -40,7 +40,8 @@ def city_selector():
 
 
 def filter_select():
-    """Asks user to specify how data will be filtered"""
+    """Asks user to specify how data will be filtered
+    Options include month, day, or not at all"""
 
     selection = input("How would you like to filter the data? By month, day, or not at all? ")
     if selection.lower() == "month":
