@@ -145,9 +145,9 @@ def stat_explorer(city, filt, point):
         hour = str(top_hour) + " AM"
     else:
         hour = str(top_hour - 12) + " PM"
-    print(" Most popular month: " + months[top_month])
-    print(" Most popular day: " + weekdays[top_day])
-    print(" Most popular hour: " + hour)
+    print(" Most popular month: " {}).format(months[top_month])
+    print(" Most popular day: " {}).format(weekdays[top_day])
+    print(" Most popular hour: " {}).format(hour)
     input("Press Enter to continue")
 
     print("\nPopular stations:")
